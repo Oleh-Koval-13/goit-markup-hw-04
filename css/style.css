@@ -258,6 +258,9 @@ color: #404bbf;
     align-items: center;
     justify-content: center;
 }
+.social-link:hover, .social-link:focus {
+    background-color: #404bbf;
+}
 .social-link {
     border-radius: 50%;
     background-color: #4D5AE5;
