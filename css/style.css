@@ -373,7 +373,6 @@ color: #404bbf;
     color: #434455;}
 .footer {
         background-color: #2e2f42;
-        margin-top: 120px;
         padding: 100px 0;
     }
 .container-bottom {
@@ -394,14 +393,22 @@ color: #404bbf;
 .bottom-logotype {
     margin-right: 120px;
 }
-.social-bottom {
-    color: #FFF;
-    font-weight: 500;
-    margin-bottom: 16px;
-}
+
 .bottom-social-list {
     display: flex;
     gap: 16px;
+}
+.social-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+}
+.bottom-text {
+    color: #FFF;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
 .bottom-social-item {
 
