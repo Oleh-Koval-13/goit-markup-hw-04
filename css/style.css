@@ -24,10 +24,17 @@ img {
 }
 .header-content {
     border-bottom: 1px solid #E7E9FC;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 .container-head {
     display: flex;
-    gap: 40px;
+    align-items: center;
+    background-color: #FFF;
 }
 .nav-size {
     display: flex;
@@ -93,6 +100,7 @@ color: #404bbf;
     display: inline-flex;
     align-items: center;
     gap: 40px;
+    margin-left: auto;
 }
 .address {
     display: flex;
