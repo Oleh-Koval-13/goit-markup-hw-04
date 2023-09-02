@@ -154,6 +154,9 @@ color: #404bbf;
     padding: 16px 32px;
     border: none;
     display: block;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
@@ -206,6 +209,7 @@ color: #404bbf;
     margin-bottom: 8px;
     border: 1px solid #8E8F99;
     padding: 24px 100px;
+    background-color: #F4F4FD;
 }
 .section-two-text {
     font-size: 16px;
